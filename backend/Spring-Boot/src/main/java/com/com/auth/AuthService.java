@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 
 import com.com.entidad.Role;
 import com.com.entidad.User;
-import com.com.entidad.UserRepository;
 import com.com.jwt.JwtService;
+import com.com.repository.UserRepository;
 
 import lombok.RequiredArgsConstructor;
 
