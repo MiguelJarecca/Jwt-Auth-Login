@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgb(41, 39, 39);
+    height: 100vh;
+}
+
+.contenedor-register {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+}
+
+.form-register{
+    background-color: #332f2f;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 2em 2em;
+    border-radius: 10px;
+    text-align: center;
+    gap: .6em;
+}
+
+.form-register input{
+    width: 100%; /*Hereda grid y le damos el 100% de ancho y el nombre cae abajo*/
+    background: rgb(66, 64, 64);
+    color: #fff;
+    font-size: 1rem; /*Tamaño del imput*/
+    padding: .6em .3em;
+    border-radius: 5px;
+    border: none;
+    outline: none; /*cuando hace click al imput no aparece el borde negro*/
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-register button {
+    background: rgb(85, 82, 82);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    border-radius: 5px;
+}
